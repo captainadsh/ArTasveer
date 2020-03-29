@@ -719,7 +719,7 @@ blockquote
 }
 blockquote::before
 {
-	content: '\0022';
+	content: '\201C';
 	font-size: 50px;
 	position: relative;
 	color: #ff9800;
@@ -729,7 +729,7 @@ blockquote::before
 }
 blockquote::after
 {
-	content: '\0022';
+	content: '\201D';
 	font-size: 50px;
 	position: relative;
 	color: #ff9800;
