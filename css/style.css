@@ -649,8 +649,12 @@ new will be added below
 *{
 	margin: 0;
 	padding: 0;
+	
 }
-
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .testimonials
 {
 	margin: 50px auto;
@@ -690,7 +694,7 @@ new will be added below
 }
 .profile img
 {
-	top: -60px;
+	top: -70px;
 	position: absolute;
 	left: calc(50% - 60px);
 	border: 7px solid white;
@@ -736,10 +740,11 @@ blockquote::after
 	line-height: 10px;
 	bottom: -15px;
 	left: 5px;
+
 }
 .profile:hover
 {
-	box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
+	box-shadow: 0 0 15px 15px rgba(255,187,51,0.4);
 	cursor: pointer;
 }
 
