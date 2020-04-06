@@ -330,6 +330,7 @@ ul, ol {
 .site-logo {
 	display: inline-block;
 	padding-top: 5px;
+	width: 230px;
 }
 .menu-switch {
 	float: right;
